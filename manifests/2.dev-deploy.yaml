@@ -6,7 +6,7 @@ metadata:
   name: nginx-dev1
   namespace: dev-1
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-dev1
